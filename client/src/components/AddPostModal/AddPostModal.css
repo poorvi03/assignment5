@@ -1,0 +1,32 @@
+.addPostModal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  height: 100%;
+  width: 100%;
+
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addPostModal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 3rem;
+  border-radius: 16px;
+}
+
+.addPostModal-title {
+  text-align: center;
+}
+
+.addPostModal-form-error {
+  text-align: center;
+  color: red;
+}

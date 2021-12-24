@@ -1,0 +1,32 @@
+.header-list {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+.header-title {
+  font-size: 4rem;
+  color:brown;
+}
+
+/*Center the Title*/
+.header-list li:first-child {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+li > * {
+  text-decoration: none;
+}
+
+/*Align title left on smaller screen*/
+@media (max-width: 700px) {
+  .header-list li:first-child {
+    left: 0;
+    transform: translate(0, 0);
+  }
+}

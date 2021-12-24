@@ -1,0 +1,56 @@
+.specificPost-container {
+  border: 3px solid var(--secondary-color);
+  border-radius: 16px;
+
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.specificPost-title {
+  border-bottom: 3px solid var(--secondary-color);
+  padding: 1rem;
+}
+
+.specificPost-body {
+  padding: 1rem;
+  flex: 1;
+  text-align: center;
+}
+
+.specificPost-author-details {
+  border-top: 3px solid var(--secondary-color);
+  padding: 1rem;
+  gap: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.specificPost-profilePicture {
+  height: 100px;
+  width: 100px;
+
+  border-radius: 50%;
+}
+
+.specificPost-author {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.specificPost-numberOfLikes-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+  .specificPost-profilePicture {
+    height: 50px;
+    width: 50px;
+  }
+}

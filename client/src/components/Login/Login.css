@@ -1,0 +1,30 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.login-title {
+  font-size: 3rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.login-form-error {
+  text-align: center;
+  color: red;
+}
+
+.register-button {
+  text-align: center;
+}
+
+.register-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

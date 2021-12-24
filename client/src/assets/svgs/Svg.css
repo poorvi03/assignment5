@@ -1,0 +1,40 @@
+.svgIcon-container {
+  padding: 1rem;
+  border-radius: 50%;
+
+  display: grid;
+  place-content: center;
+}
+
+.svgIcon-container:hover {
+  cursor: pointer;
+  background-color: #202020e1;
+}
+
+.svg-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.svg-big {
+  width: 200px;
+  height: 200px;
+}
+
+.svg-icon-path {
+  fill: var(--secondary-color);
+}
+
+.svg-like:hover {
+  cursor: pointer;
+}
+
+.svg-path-like {
+  stroke: var(--secondary-color);
+  stroke-width: 3px;
+}
+
+.svg-path-liked {
+  fill: red;
+  stroke: red;
+}

@@ -1,0 +1,17 @@
+.home-container {
+  position: relative;
+  display: flex;
+  padding-top: 3rem;
+  overflow: hidden;
+}
+
+.home-posts-container {
+  flex: 1;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-items: center;
+  gap: 2rem;
+
+  overflow: auto;
+}

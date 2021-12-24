@@ -1,0 +1,21 @@
+.signUp-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.signUp-title {
+  font-size: 3rem;
+}
+
+.signUp-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.signUp-form-error {
+  text-align: center;
+  color: red;
+}
